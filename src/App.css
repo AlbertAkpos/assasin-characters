@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.character {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  gap: 2rem;
+  padding: 3rem;
+}
+.character-details {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.829);
+  color: #ffffff;
+  padding: 0 0.2rem;
+}
+
+.character-details p {
+  color: #dadada;
+}
+
+.img-container {
+  position: relative;
+}
+.character-more-details {
+  background-color: #333333;
+}
+.character-more-details ul li {
+  list-style: none;
+  border-bottom: 1px solid burlywood;
+  padding: 1rem 1.5rem;
+}
+
+.details-tag {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.details-value {
+  float: right;
+  color: #f27d28;
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+}
+
+/* Input */
+.input-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.input-container input {
+  width: 50%;
+  height: 50px;
+  text-indent: 10px;
+  background-color: #8a8888;
+  color: white;
+  border: 0;
+  border-radius: 96px;
+  outline: none;
+}
+
+.input-container input:hover {
+  cursor: pointer;
+}
+
+.input-container input::placeholder {
+  color: white;
+}
+.buttons {
+  width: 20%;
+  min-width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.buttons button {
+  font-size: 2rem;
+  padding: 0.2rem 1.3rem;
+  background-color: #f27d28;
+  border: 0;
+}
